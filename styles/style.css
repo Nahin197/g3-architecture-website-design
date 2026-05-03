@@ -254,7 +254,7 @@ p{
     margin-bottom: 130px;
 }
 .sponsor-info{
-    width: 542px;
+    max-width: 542px;
     margin: 0 auto;
     text-align: center;
 }
@@ -273,6 +273,31 @@ p{
     filter: grayscale(100%);
 }
 
+/* footer */
+
+footer{
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 244, 231, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 230px;
+     
+    
+
+}
+
+/* .footer-des{
+    margin: 0;
+} */
+
+
+
 
 
 /* media */
@@ -287,6 +312,10 @@ p{
 
         grid-template-columns: repeat(1,1fr);
         
+    }
+
+    .nav-iteams {
+        margin-right: 60px;
     }
 
 
@@ -314,15 +343,24 @@ p{
 
     .architect-button{
         margin-top: 12px;
-         margin: 20px;
+         margin: 5px;
 
      }
 
 
      .sponsor-images{
         flex-direction: column;
-        gap: 100p
+        gap: 100px
      }
+
+     footer{
+        text-align: center;
+
+     }
+
+     
+
+   
 
     
 
