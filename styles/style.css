@@ -248,6 +248,31 @@ p{
    margin-left: -90px;
 }
 
+/* sponsor */
+
+.sponsor{
+    margin-bottom: 130px;
+}
+.sponsor-info{
+    width: 542px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sponsor-images{
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 155px;
+
+}
+
+.sponsor-images img{
+    filter: grayscale(100%);
+}
+
 
 
 /* media */
@@ -279,6 +304,25 @@ p{
        width: auto;
 
     }
+
+    .sister-container{
+        flex-direction: column;
+    }
+    .architect-img{
+        width: 100%;
+    }
+
+    .architect-button{
+        margin-top: 12px;
+         margin: 20px;
+
+     }
+
+
+     .sponsor-images{
+        flex-direction: column;
+        gap: 100p
+     }
 
     
 
